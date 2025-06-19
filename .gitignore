@@ -3,3 +3,7 @@ bin
 obj
 *~
 *.DotSettings.user
+*.nupkg
+WorkerPool.nuspec
+src/WorkerPool/WorkerPool/SystemConstants.cs
+src/WorkerPool/WorkerPool/VersionAssemblyInfo.cs

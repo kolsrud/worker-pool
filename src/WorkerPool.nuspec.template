@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WorkerPool</id>
+    <version>***</version>
+    <title>WorkerPool</title>
+    <authors>Øystein Kolsrud</authors>
+    <owners>Øystein Kolsrud</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/kolsrud/worker-pool</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Basic utility library for handling a pool for concurrent jobs.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © 2025 Øystein Kolsrud</copyright>
+    <tags>qlik sense rest</tags>
+    <readme>docs\README.md</readme>
+  </metadata>
+  <files>
+    <file src="WorkerPool\WorkerPool\bin\Release\net6.0\WorkerPool.dll" target="lib\net6.0" />
+    <file src="..\README.md" target="docs\" />
+<!--    <file src="..\LICENSE" target="licenses\LICENSE" /> -->
+  </files>
+</package>
