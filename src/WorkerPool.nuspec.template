@@ -16,7 +16,8 @@
     <readme>docs\README.md</readme>
   </metadata>
   <files>
-    <file src="WorkerPool\WorkerPool\bin\Release\net6.0\WorkerPool.dll" target="lib\net6.0" />
+    <file src="WorkerPool\WorkerPool\bin\Release\net7.0\WorkerPool.dll" target="lib\net7.0" />
+    <file src="WorkerPool\WorkerPool\bin\Release\net48\WorkerPool.dll" target="lib\net48" />
     <file src="..\README.md" target="docs\" />
 <!--    <file src="..\LICENSE" target="licenses\LICENSE" /> -->
   </files>
