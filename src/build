@@ -10,6 +10,6 @@ cp WorkerPool.nuspec.template WorkerPool.nuspec
 sed -i "s|<version>.*</version>|<version>$VERSION</version>|" WorkerPool.nuspec
 sed "s|@VERSION|$VERSION|g" SystemConstants.template > WorkerPool/WorkerPool/SystemConstants.cs
 sed "s|@VERSION|$VERSION|g" VersionAssemblyInfo.template > WorkerPool/WorkerPool/VersionAssemblyInfo.cs
-#nuget restore
+nuget restore WorkerPool
 build.bat
 mkNugetPkg
