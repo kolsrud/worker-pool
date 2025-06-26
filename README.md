@@ -10,3 +10,4 @@ while (workerPool.HasWork)
     workerPool.GetResult();
 }
 ```
+Examples can be found here: https://github.com/kolsrud/worker-pool/tree/main/src/Examples
