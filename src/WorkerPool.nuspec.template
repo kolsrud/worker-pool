@@ -12,7 +12,7 @@
     <description>Basic utility library for handling a pool for concurrent jobs.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright © 2025 Øystein Kolsrud</copyright>
-    <tags>qlik sense rest</tags>
+    <tags>worker concurrent</tags>
     <readme>docs\README.md</readme>
   </metadata>
   <files>
